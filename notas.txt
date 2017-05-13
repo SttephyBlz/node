@@ -2,3 +2,18 @@ MEAN: Usar en aplicaciones en tiempo real.
   Appweb: Actividad
   PagWeb: Para informacion como blogs
 LAMPP
+
+npm init : inicializa el proyecto de node. Crea el package.json
+  -Nombre de las dependencias
+  -Metadatos del proyecto
+  -scripts
+
+
+El mejor para hacer debug para nodejs es visual code.
+
+
+sudo npm install express
+
+pkill nodejs -> kill all ports that node is using
+
+node app.js -> to execute
