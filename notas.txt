@@ -17,3 +17,27 @@ sudo npm install express
 pkill nodejs -> kill all ports that node is using
 
 node app.js -> to execute
+--------------
+
+
+sudo npm install express generator -g
+
+express ejs
+
+npm install
+
+npm start
+
+Navegador: localhost:3000
+
+Todo lo que hay en public se puede acceder con url (?)
+Para frontend
+
+asignas a esa variable
+<%= title %>
+
+<% for(var i=0; i<10; i++){ %>
+<h1><%= title %></h1>
+<% } %>
+
+alt + shft + 7
