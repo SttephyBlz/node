@@ -1,0 +1,4 @@
+MEAN: Usar en aplicaciones en tiempo real.
+  Appweb: Actividad
+  PagWeb: Para informacion como blogs
+LAMPP
