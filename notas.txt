@@ -19,7 +19,11 @@ pkill nodejs -> kill all ports that node is using
 node app.js -> to execute
 --------------
 
+--
 
+sudo lsof -n -i :27017 | grep LISTEN
+sudo kill <ProcessID>
+--
 sudo npm install express generator -g
 
 express ejs
@@ -41,3 +45,10 @@ asignas a esa variable
 <% } %>
 
 alt + shft + 7
+
+sudo mongod
+
+ps -aux | <algo>
+
+
+npm install mongoose --save

@@ -1,0 +1,14 @@
+body{
+  font-size: 16px;
+  margin: 0 auto;
+}
+/*.....*/
+
+.secondary-content{
+  float:left;
+}
+
+.sideNav a span i, .sideNav a span{
+  color: #000;
+  font-weight: bold;
+}

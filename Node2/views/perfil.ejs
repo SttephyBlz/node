@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='css/materialize.min.css' />
+    <title>{{title}}</title>
+
+  </head>
+  <body class="grey lighten-5">
+    <header>
+      <nav class="nav-wrapper fixed teal">
+        <a data-activates="mobile-nav" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <a class="brand-logo center ">
+          <i class="material-icons left">change_history</i>
+          Slant
+        </a>
+        <ul id="dropdown1" class="dropdown-content" >
+          <li><span class="">Usuario</span></li>
+          <li class="divider"></li>
+          <li><a href="#!">Salir</a></li>
+        </ul>
+
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="/perfil" class="waves-effect">
+              <span>Perfil</span>
+              <i class="material-icons left">person</i>
+            </a>
+          </li>
+          <li>
+            <a href="/" class="waves-effect">
+              <span>Cursos</span>
+                <i class="material-icons left">dashboard</i>
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="dropdown1">
+              <i class="material-icons">account_circle</i>
+
+            </a>
+          </li>
+
+        </ul>
+        <ul class="side-nav" id="mobile-nav">
+          <li>
+            <div class="userView">
+              <div class="background">
+                  <img src="https://www.walldevil.com/wallpapers/a83/thumb/6037-wallpapers-tumblr.jpg" alt="">
+              </div>
+              <a href="#"><img class="circle" src="http://piq.codeus.net/static/media/userpics/piq_86552_400x400.png" alt=""></a>
+              <a href="#"><span class="name">Barry Allen</span></a>
+            </div>
+          </li>
+          <li>
+            <a class="waves-effect">
+              <span>Perfil</span>
+              <i class="material-icons">person</i>
+            </a>
+          </li>
+          <li>
+            <a class="waves-effect">
+              <span>Cursos</span>
+                <i class="material-icons">dashboard</i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="content">
+      <article class="row">
+        <article class="col s12 m12 l12 ">
+          <article class="row">
+            <img class="circle col s4 m4 l2 offset-l5 offset-m4 offset-s4" src="http://piq.codeus.net/static/media/userpics/piq_86552_400x400.png" alt="">
+          </article>
+          <article class="row">
+            <article class="z-depth-2 card-panel col s4 m4 l6 offset-l3 offset-m4 offset-s4 center-align">
+                <span class="black-text"></span>
+            </article>
+          </article>
+          <article class="col s6 m6 l6">
+            <article class="cyan darken-4 z-depth-1 card-panel  center-align">
+                <span class="white-text">Phone</span>
+            </article>
+            <article class="z-depth-1 card-panel center-align">
+                <span class="black-text">Address</span>
+            </article>
+            <article class="cyan darken-4 z-depth-1 card-panel center-align">
+                <span class="white-text">E-Mail</span>
+            </article>
+
+          </article>
+          <article class="col s6 m6 l6">
+            <article class=" black-text">
+              <ul class="collapsible " data-collapsible="accordion">
+                <li>
+                  <div class="collapsible-header active cyan darken-4 center-align">
+                    <span class="white-text">Skills</span>
+                  </div>
+                  <div class="collapsible-body">
+                    <ul class="collection">
+                      <li class="collection-item">JavaScript</li>
+                      <li class="collection-item">Angular</li>
+                      <li class="collection-item">React</li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header center-align">
+                    <span class="">Courses</span>
+                  </div>
+                  <div class="collapsible-body">
+                    <ul class="collection">
+                      <li class="collection-item">JavaScript</li>
+                      <li class="collection-item">Angular</li>
+                      <li class="collection-item">React</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </article>
+          </article>
+
+        </article>
+      </article>
+      <article class="fixed-action-btn">
+        <a class="btn-floating btn-large waves-effect waves-light accent-3">
+          <i class="material-icons">more_horiz</i>
+        </a>
+        <ul>
+          <li>
+            <a class="btn-floating waves-effect waves-light blue">
+              <i class="material-icons">mode_edit</i>
+            </a>
+          </li>
+          <li>
+            <a class="btn-floating waves-effect waves-light red">
+              <i class="material-icons">delete</i>
+            </a>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

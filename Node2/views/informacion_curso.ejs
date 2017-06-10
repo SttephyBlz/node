@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='css/materialize.min.css' />
+    <title>Slant</title>
+
+  </head>
+  <body class="grey lighten-5">
+    <header>
+      <nav class="nav-wrapper fixed teal">
+        <a data-activates="mobile-nav" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <a class="brand-logo center ">
+          <i class="material-icons left">change_history</i>
+          Slant
+        </a>
+        <ul id="dropdown1" class="dropdown-content" >
+          <li><span class="">Usuario</span></li>
+          <li class="divider"></li>
+          <li><a href="#!">Salir</a></li>
+        </ul>
+
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="/perfil" class="waves-effect">
+              <span>Perfil</span>
+              <i class="material-icons left">person</i>
+            </a>
+          </li>
+          <li>
+            <a href="/" class="waves-effect">
+              <span>Cursos</span>
+                <i class="material-icons left">dashboard</i>
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="dropdown1">
+              <i class="material-icons">account_circle</i>
+
+            </a>
+          </li>
+
+        </ul>
+        <ul class="side-nav" id="mobile-nav">
+          <li>
+            <div class="userView">
+              <div class="background">
+                  <img src="https://www.walldevil.com/wallpapers/a83/thumb/6037-wallpapers-tumblr.jpg" alt="">
+              </div>
+              <a href="#"><img class="circle" src="http://piq.codeus.net/static/media/userpics/piq_86552_400x400.png" alt=""></a>
+              <a href="#"><span class="name">Barry Allen</span></a>
+            </div>
+          </li>
+          <li>
+            <a class="waves-effect">
+              <span>Perfil</span>
+              <i class="material-icons">person</i>
+            </a>
+          </li>
+          <li>
+            <a class="waves-effect">
+              <span>Cursos</span>
+                <i class="material-icons">dashboard</i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <article class="row">
+        <article id="content" class="col s12 m12 l12">
+            <article class="row">
+              <article class="col s6 m6 l6 offset-l3 offset-m3 offset-s3">
+                <article class="card-panel center-align teal">
+                  <span id="informacion_nombre_curso" class="white-text ">Nombre del curso</span>
+                </article>
+              </article>
+            </article>
+            <article id="artInfo" class="col s12 m12 l12 red darken-3 white-text">
+              <article id="informacion_temario" class="col s12 m6 l6 ">Temario</article>
+              <article id="informacion_empresas" class="col s12 m6 l6 ">Empresas que toman el curso</article>
+            </article>
+        </article>
+      </article>
+      <article class="fixed-action-btn">
+        <a class="btn-floating btn-large waves-effect waves-light accent-3">
+          <i class="material-icons">more_horiz</i>
+        </a>
+        <ul>
+          <li>
+            <a class="btn-floating waves-effect waves-light blue">
+              <i class="material-icons">mode_edit</i>
+            </a>
+          </li>
+          <li>
+            <a class="btn-floating waves-effect waves-light red">
+              <i class="material-icons">delete</i>
+            </a>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
