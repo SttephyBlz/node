@@ -52,3 +52,14 @@ ps -aux | <algo>
 
 
 npm install mongoose --save
+
+
+-------------------------------
+npm install express --save
+
+sudo express --view=ejs <Nombre del proyecto>
+npm install
+npm start
+npm install mongoose --save
+sudo service mongodb start //Start mongod
+npm install bcrypt --save
