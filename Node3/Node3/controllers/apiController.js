@@ -1,5 +1,6 @@
 const User = require('../models/user'),
-      bCrypt = require('bcrypt-nodejs');
+      bCrypt = require('bcrypt-nodejs'),
+      service = require('./service');
 //Controller
 function newUser(req, res, next) {
   var name = req.body.name;
@@ -19,7 +20,7 @@ function newUser(req, res, next) {
       if(err){
         res.status(500).json({success: false, message: 'No se pudo guardar el usuario'});
       }else{
-        res.status(200).json({success: true, message: 'Usuario guardado exitosamente.'});
+        res.status(200).json({success: true, message: 'Usuario guardado exitosamente.', token: service.createToken(newUser)});
       }
     });
   }
@@ -27,7 +28,14 @@ function newUser(req, res, next) {
 }
 
 function getUsers(req, res, next) {
-  res.json({message: 'Todo bien'});
+  User.find({}, (err, user)=>{
+    if(err){
+      res.status(500).json({success: false, message: 'Hubo un error'});
+    }else{
+      res.status(200).json({success: true, usuarios: user});
+    }
+  })
+
 }
 
 //Created

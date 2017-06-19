@@ -53,7 +53,7 @@ ps -aux | <algo>
 
 npm install mongoose --save
 
-
+express --view=ejs caffeinejobs
 -------------------------------
 npm install express --save
 
@@ -63,3 +63,8 @@ npm start
 npm install mongoose --save
 sudo service mongodb start //Start mongod
 npm install bcrypt --save
+
+------
+
+Para acceder desde el postman usar el token que regresa el json
+cuando agregas un usuario en el header.
